@@ -1,0 +1,38 @@
+@media (max-width: 1120px){
+    .cabecalho .Logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-itens{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-itens .itens{
+        margin-top: 37px;
+    }
+
+    .selecao-de-itens .itens .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-itens .lista-de-itens{
+        gap: 9px;
+    }
+
+    .selecao-de-itens .item img{
+        width: 80px;
+    }
+
+    .item-selecionado .item-grande{
+        width:  350px;
+        height: 350px;
+    }
+
+    .item-selecionado .descricao-item{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
